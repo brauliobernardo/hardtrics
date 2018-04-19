@@ -1,0 +1,130 @@
+
+.bg-gradient {
+	background: #f30101; /* Old browsers */
+	background: -moz-linear-gradient(top, #f30101 0%, #f30101 2%, #7a031e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f30101 0%,#f30101 2%,#7a031e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f30101 0%,#f30101 2%,#7a031e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f30101', endColorstr='#7a031e',GradientType=0 ); /* IE6-9 */
+}
+
+
+section, nav {
+
+	border: none;
+
+}
+
+.bg-brand {
+
+	background: #f30101;
+
+}
+
+.text-brand {
+
+	color: #f30101;
+
+}
+
+.bg-noir {
+
+	background: #333;
+
+}
+
+.bg-img1 {
+
+	background: url('../img/bg1.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.bg-img2 {
+
+	background: url('../img/bg2.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.bg-img3 {
+
+	background: url('../img/bg3.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.bg-img4 {
+
+	background: url('../img/bg4.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.bg-img5 {
+
+	background: url('../img/bg5.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+ .navbar-transparent {
+   background: rgba(0,0,0,0.4);
+}
+
+.custom-overlay {
+
+	background: rgba(0,0,0,0.5);
+
+}
+
+@media (max-width: @screen-xs) {
+    .display-2{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    h1{font-size: 10px;}
+}
+
+.crop{
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+}
+
+.spinning {
+	animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
