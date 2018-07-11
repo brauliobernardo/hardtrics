@@ -23,7 +23,7 @@ section, nav {
 }
 
 .bg-img1 {
-	background: url('../img/bg1.jpg') no-repeat center center; 
+	background: url('../img/bg6.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -39,7 +39,7 @@ section, nav {
 }
 
 .bg-img3 {
-	background: url('../img/bg3.jpg') no-repeat center center; 
+	background: url('../img/bg3.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -56,6 +56,14 @@ section, nav {
 
 .bg-img5 {
 	background: url('../img/bg5.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-img7 {
+	background: url('../img/bg7.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
