@@ -82,23 +82,6 @@ section, nav {
 	background-color: #f30101;
 }
 
-@media (max-width: @screen-xs) {
-    .display-2{font-size: 10px;}
-}
-
-@media (max-width: @screen-sm) {
-    h1{font-size: 10px;}
-}
-
-.crop {
-     word-wrap: break-word;
-     -webkit-hyphens: auto;
-     -moz-hyphens: auto;
-     -ms-hyphens: auto;
-     -o-hyphens: auto;
-     hyphens: auto;
-}
-
 .spinning {
 	animation-name: spin;
     animation-duration: 10000ms;
@@ -117,4 +100,30 @@ section, nav {
 @keyframes spin {
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
+}
+
+/*
+  ##Device = Tablets, ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+	.display-2 {
+		font-size: 3.2rem;
+	}
+
+	.display-3 {
+		font-size: 2rem;
+	}
+
+	.display-4 {
+		font-size: 2rem;
+	}
 }
